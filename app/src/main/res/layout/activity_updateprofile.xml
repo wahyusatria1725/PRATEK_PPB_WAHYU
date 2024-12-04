@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50sp"
+    android:orientation="vertical"
+    tools:context=".DaftarActivity">
+
+    <TextView
+        android:id="@+id/textViewEdit4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40sp"
+        android:background="#FFEB3B"
+        android:text="EDIT PROFILE"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+        android:ems="10"
+        android:hint="Masukkan NIM"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:hint="Masukkan Nama"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:ems="10"
+        android:hint="Masukkan E-Mail"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:ems="10"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnkonfirmasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="100sp"
+        android:backgroundTint="#09A410"
+        android:text="KONFIRMASI" />
+
+
+    <Button
+        android:id="@+id/btneditbatal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="100sp"
+        android:backgroundTint="#F80606"
+        android:text="BATAL" />
+
+</LinearLayout>
